@@ -3,26 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BlazePose</title>
+    <title>Pose Detection Webcam</title>
     <style>
       body {
         margin: 0;
-        padding: 0;
         height: 100vh;
-        overflow: hidden;
         display: grid;
         place-items: center;
       }
     </style>
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-segmentation"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.1/p5.min.js"></script>
-    <script src="index.js"></script>
+    <script src="https://unpkg.com/pose-detector@2.0.22/dist/pose-detector.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
